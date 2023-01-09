@@ -44,9 +44,9 @@
         </div>
         <script>
             $(document).ready(function () {
-                fetch_customer_data();
+                fetch_data();
 
-                function fetch_customer_data(query = "") {
+                function fetch_data(query = "") {
                     $.ajax({
                         url: "{{ route('movie.search') }}",
                         method: "GET",
