@@ -76,7 +76,7 @@
                         $(".update").empty();
                         $("#main").removeClass("flex flex-wrap");
                         $("#main").addClass("hidden");
-                        fetch_customer_data(query);
+                        fetch_data(query);
                     } else if (query.length == 0) {
                         $(".update").empty();
                         $("#main").removeClass("hidden");
